@@ -1,0 +1,130 @@
+/* Importations */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Variables */
+/* Colors */
+/* Fonts */
+/* Animations (?) */
+/* Loader (?) */
+/* Header */
+body {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+body header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #11a79c;
+}
+body header .nav {
+  display: none;
+}
+body header .title_header {
+  font-family: "Chakra Petch", sans-serif;
+  color: white;
+}
+body header .logo_header {
+  width: 26%;
+  height: 100%;
+  margin-top: 2px;
+  margin-right: 6px;
+}
+body header .logo_header img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+body main #presentation .logo_main img {
+  width: 100%;
+}
+body main #presentation .photo_index img {
+  width: 100%;
+  border-radius: 8px;
+}
+body main #content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+body main #content h2 {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 1.4em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 76%;
+  text-align: center;
+  color: #11a79c;
+}
+body main #content p {
+  font-family: "Noticia Text", serif;
+  font-size: 0.85em;
+  width: 60%;
+  text-align: justify;
+  color: #2dbfb5;
+}
+
+/* Main */
+/* Footer *//*# sourceMappingURL=index_style.css.map */
