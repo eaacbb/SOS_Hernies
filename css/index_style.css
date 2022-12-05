@@ -94,6 +94,13 @@ body header .logo_header img {
   height: 100%;
   border-radius: 10px;
 }
+body main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  align-items: center;
+}
 body main #presentation .logo_main img {
   width: 100%;
 }
@@ -124,6 +131,26 @@ body main #content p {
   width: 60%;
   text-align: justify;
   color: #2dbfb5;
+}
+body main #support_button {
+  margin-top: 20px;
+}
+body main #support_button .supportbutton a {
+  display: inline-block;
+  background-color: #11a79c;
+  color: white;
+  font-family: "Chakra Petch", sans-serif;
+  border-radius: 10px;
+  border: 8px double #2dbfb5;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 15px;
+  width: 200px;
+  cursor: pointer;
+  margin: 5px;
+}
+body main #support_button .supportbutton a:hover {
+  background-color: #2dbfb5;
 }
 
 /* Main */

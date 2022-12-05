@@ -55,6 +55,11 @@ body {
         }
     }
     main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: space-around;
+        align-items: center;
         #presentation {
             .logo_main {
                 img {
@@ -90,6 +95,28 @@ body {
                 width: 60%;
                 text-align: justify;
                 color: $secondary;
+            }
+        }
+        #support_button {
+            margin-top: 20px;
+            .supportbutton {
+                a {
+                    display: inline-block;
+                    background-color: $primary;
+                    color: white;
+                    font-family: $chak;
+                    border-radius: 10px;
+                    border: 8px double $secondary;
+                    text-align: center;
+                    font-size: 1.2em;
+                    padding: 15px;
+                    width: 200px;
+                    cursor: pointer;
+                    margin: 5px;
+                }
+                a:hover {
+                    background-color: $secondary;
+                }
             }
         }
     }
